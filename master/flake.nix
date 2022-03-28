@@ -11,7 +11,6 @@
   inputs.src-odsreader-master.ref   = "refs/heads/master";
   inputs.src-odsreader-master.owner = "dariolah";
   inputs.src-odsreader-master.repo  = "odsreader";
-  inputs.src-odsreader-master.dir   = "";
   inputs.src-odsreader-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
